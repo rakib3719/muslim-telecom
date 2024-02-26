@@ -1,0 +1,63 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@100..800&family=Atma:wght@300;400;500;600;700&family=Baloo+Da+2:wght@400..800&family=Inter:wght@100..900&family=Kurale&family=Mina:wght@400;700&family=Noto+Serif+Bengali:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Tiro+Bangla:ital@0;1&display=swap');
+
+
+
+
+.raleway{
+
+
+  font-family: "Raleway", sans-serif;
+
+}
+
+.poppins{
+
+
+    font-family: "Poppins", sans-serif;
+}
+
+.kural{
+
+
+    font-family: "Kurale", serif;
+}
+
+
+.b1{
+
+    font-family: "Atma", system-ui;
+}
+
+
+.b2{
+
+    font-family: "Noto Serif Bengali", serif;
+}
+
+.b3{
+
+    font-family: "Baloo Da 2", sans-serif;
+}
+
+.b4{
+
+    font-family: "Anek Bangla", sans-serif;
+}
+
+.b5{
+
+    font-family: "Tiro Bangla", serif;
+}
+
+.mina{
+    font-family: "Mina", sans-serif;
+}
+
+.btn-btn{
+
+    background-color: #4caf50; /* Material Green color */
+    color: #ffffff; /* White text */
+    /* Add any other styles you want */
+}
