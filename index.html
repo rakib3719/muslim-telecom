@@ -97,12 +97,12 @@
 </header>
 
 
-<main>
+<main id="main"  class="w-[90%] md:w-[84%] mx-auto mx-w-[1220px] ">
 
 
 
 
-<div class="w-[90%] md:w-[84%] mx-auto mx-w-[1220px] mt-16 grid grid-row md:grid-cols-2 gap-8"  >
+<div class="mt-16 grid grid-row md:grid-cols-2 gap-8"  >
 
 
 
@@ -112,7 +112,7 @@
           <h2 class="card-title poppins text-4xl">Robi...</h2>
           <p class="b4 text-2xl" >সকল রবি অফার দেখতে নিম্নোক্ত show all Robi offer এ ক্লিক করুন</p>
           <div class="card-actions justify-center  ">
-            <button class="btn w-full bg-primary-color text-white">Show all Robi offer</button>
+            <button id="robi" class="btn robi w-full bg-primary-color text-white">Show all Robi offer</button>
           </div>
         </div>
       </div>
@@ -141,7 +141,7 @@
         </div>
       </div>
     <div class="card card-compact  bg-pink-200 shadow-xl">
-        <figure><img src="./img/bl.png" alt="robi" /></figure>
+     <img src="./img/bl.png" alt="robi" />
         <div class="card-body">
           <h2 class="card-title poppins text-4xl">Bhangalink...</h2>
           <p class="b4 text-2xl" >সকল বাংলালিংক অফার দেখতে নিম্নোক্ত show all BL offer এ ক্লিক করুন</p>
@@ -158,8 +158,22 @@
 
 
 
-</main>
 
+
+
+</main>
+<div id="list-div" class="list hidden border-2 w-[94%] mx-auto border-gray-700 bg-orange-400 rounded-3xl shadow-2xl mt-16" >
+
+    <ul class="hidden" id="appendRobi">
+    <h1 class="text-center text-2xl font-bold text-red-700" >Robi List</h1>
+    <button class="btn btn-danger" id="close" > Close </button>
+    
+    
+        
+    </ul>
+    
+    
+    </div>
 <footer class="bg-[#131318] mt-32">
 
 
@@ -257,6 +271,6 @@
 
 </footer>
 
-
+<script src="./first.js"></script>
 </body>
 </html>
